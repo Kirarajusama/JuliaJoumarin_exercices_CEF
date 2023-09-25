@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Titre</title>  
+    </head>
+    <body>
+        <h1>Demande de devis</h1>
+        <form>
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name"/> <br/>
+            <label for="firstname">Prénom</label>
+            <input type="text" id="firstname" name="firstname"/> <br/>
+            <label for="mail">Email</label>
+            <input type="email" id="mail" name="mail"/>
+            <fieldset>
+                <legend>Vous êtes : </legend>
+                <input type="radio" id="particular" name="status" value="particular"/>
+                <label for="particular">Un particulier</label>
+                <input type="radio" id="professional" name="status" value="particular"/>
+                <label for="professional">Un professionnel</label>
+            </fieldset>
+            <label for="choice">Votre demande concerne</label>
+            <select name="choice" id="choice">
+            <option value="blind">Un store</option>
+            <option value="pergola">Une pergola</option>
+            <option value="kiosk">Un kiosque</option>
+            </select> <br/>
+            <label for="about">Votre message</label>
+            <textarea name="about" id="about" cols="30" rows="10"></textarea> <br/>
+            <button type="submit">Envoyer ma demande</button>
+        </form>
+    </body>
+</html>
