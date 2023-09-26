@@ -1,0 +1,39 @@
+/*retrouver la balise en CSS*/
+p{
+    color: red;
+}
+.ma_classe{
+    color: blue;
+}
+#mon_id{
+    color: green;
+}
+*{ /*est un sélecteur universel, pour appliquer le style à tout le fichier HTML*/
+    color: aquamarine;
+} 
+
+
+/*combinaison des sélecteur*/
+p + img {/*sélectionne la balise et la suivante*/
+    color: black;}
+p ~ img {/*sélectionne la balise et toute les suivante du même nom*/
+    color: white;}
+section > p {/*sélectionne la balise enfant (en dessous) de la première balise (ici section)*/
+    color: violet;}
+section p {/*sélectionne toute les balises enfant (en dessous) de la première balise (ici section)*/
+    color: brown;}
+
+
+/*utilisation de l'attribut d'une balise comme sélecteur*/
+
+/*balise[nom_attribut] {} : La balise contient l’attribut, peu importe le contenu.
+balise[nom_attribut=valeur] {} : La balise contient l’attribut avec exactement la valeur définie.
+balise[nom_attribut~=valeur] {} : La balise contient l’attribut avec au moins la valeur définie.
+balise[nom_attribut|=valeur] {} : La balise contient l’attribut avec la valeur définie ou qui commence avec la valeur définie 
+    suivie d’un tiret.
+balise[nom_attribut^=valeur] {} : La balise contient l’attribut qui commence avec la valeur définie.
+balise[nom_attribut$=valeur] {} : La balise contient l’attribut qui se termine par la valeur définie.
+balise[nom_attribut*=valeur] {} : La balise contient l’attribut avec au moins une occurrence de la valeur définie au sein 
+    de la chaine de caractères, que ce soit au début, au milieu ou encore à la fin.*/
+
+/*On peut ajouter un « i » juste avant le crochet de fermeture pour ne pas prendre en compte la casse (majuscule/minuscule).*/
