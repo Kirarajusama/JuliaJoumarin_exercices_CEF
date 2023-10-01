@@ -12,9 +12,9 @@ p{
 
 /*allignement vertical*/
 p{
-    vertical-align: top; /*les blocs d'alligne par le haut*/
-    vertical-align: middle; /*les blocs d'alligne par le milieu*/
-    vertical-align: bottom; /*les blocs d'alligne par le bas*/
+    vertical-align: top; /*les blocs s'alligne par le haut*/
+    vertical-align: middle; /*les blocs s'alligne par le milieu*/
+    vertical-align: bottom; /*les blocs s'alligne par le bas*/
 }
 
 /*position*/

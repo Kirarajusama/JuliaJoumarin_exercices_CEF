@@ -1,0 +1,28 @@
+/* NE PAS TOUCHER A CE CODE*/
+section{
+    width:500px;
+}
+
+article{
+    width:100px;
+    height:200px;
+    border:1px solid black;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+h1{
+    margin-bottom:500px;
+    width:200px;
+    position: sticky;
+    top: 0px;
+    left: 50px;
+}
+
+#post-2{
+    height:250px;
+}
+
+img{
+    float: right;
+}
