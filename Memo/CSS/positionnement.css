@@ -1,0 +1,38 @@
+/*flotant*/
+p{
+    float: right; /*l'élément flotte à droite*/
+    float: left; /*l'élément flotte à gauche*/
+    float: none; /* l'élèment ne flotte pas*/
+
+    clear: none; /*l'élément se place à côté de l’élément flottant*/
+    clear: left; /*l’élément se place en dessous de l’élément flottant à gauche*/
+    clear: right; /*l’élément se place en dessous de l’élément flottant à droite*/
+    clear: both; /*l’élément se place en dessous de l’élément flottant à gauche et/ou à droite*/
+}
+
+/*allignement vertical*/
+p{
+    vertical-align: top; /*les blocs d'alligne par le haut*/
+    vertical-align: middle; /*les blocs d'alligne par le milieu*/
+    vertical-align: bottom; /*les blocs d'alligne par le bas*/
+}
+
+/*position*/
+p{
+    position: static; /*position par défaut*/
+    position: absolute; /*se place au dessus des autres contenue 
+        et se positionne dans la page ou le parent dans lequel il se situe*/
+    position: fixed; /*se place au dessus des autres contenue 
+        et le possitionnement ne bouge plus même en cas de scroll sur la page, l'élément reste toujours afficher a l'écran*/
+    position: relative; /*se place au dessus des autres contenue et se positionne par apport à sa place initiale*/
+    position: sticky; /*fontionne comme fixed mais ne se place pas au dessus des autres contenue*/
+
+    /*s'utilise avec:*/
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+
+    /* pour gérer la supperposition :*/
+    z-index: 2; /*l'élément avec la valeur la plus élevé sera au dessus*/
+}
