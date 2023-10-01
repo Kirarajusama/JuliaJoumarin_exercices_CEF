@@ -1,0 +1,7 @@
+p{
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    height: 100px;
+    overflow-y: auto;
+}

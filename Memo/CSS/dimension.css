@@ -3,7 +3,7 @@ p{
     width: 100%; /*largeur fixe*/
     min-width: 50px; /*largeur minimum*/
     max-width: 600px; /*largeur maximum*/
-    height: 100px; /*heuteur fixe*/
+    height: 100px; /*hauteur fixe*/
     min-height: 50px; /*hauteur minimum*/
     max-height: 200px; /*hauteur maximum*/
 }
