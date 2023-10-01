@@ -36,3 +36,41 @@ p{
     /* pour gérer la supperposition :*/
     z-index: 2; /*l'élément avec la valeur la plus élevé sera au dessus*/
 }
+
+
+/*flexbox*/
+p{
+    display: flex;
+
+    flex-direction: row; /*allignement horizontal*/ /*axe horizontal principal et vertical secondaire*/
+    flex-direction: column; /*allignement vertical*/ /*axe vertical principal et vertical secondaire*/
+    flex-direction: row-reverse; /*allignement horizontal inversé*/
+    flex-direction: column-reverse; /*allignement verticalinversé*/
+
+    flex-wrap: nowrap; /*place tout sur une seule ligne*/
+    flex-wrap: wrap; /*les élément vont automatiquement à la ligne quand il n'ya plus de place*/
+    flex-wrap: wrap-reverse; /*les élément vont automatiquement à la ligne dans le sens inverse quand il n'y a plus de place*/
+
+    justify-content: start; /*pour l'axe principal*/
+    align-items: center; /*pour l'axe secondaire*/
+    align-self: auto; /*pour un seul élément*/
+    flex-basis: auto; /*largeur de la flexbox*/
+    order: 1; /*permet de changer l'ordre des éléments*/
+
+    /*justify-content*/
+    justify-content: start; /*allignement à gauche*/
+    justify-content: center; /*allignement central*/
+    justify-content: end; /*allignement à droite*/
+    justify-content: space-between; /*espace les éléments entre eux*/
+    justify-content: space-around; /*espace les éléments entre eux + la moitié de cette espacement sur les cotés*/
+    justify-content: space-evenly; /* espace les élémnts entre eux en plus du bord à part égale*/
+    justify-content: flex-start; /*allignement à droite*/
+    justify-content: flex-end; /*allignement à gauche*/
+
+    /*align*/
+    align-items: start; /*allignement part le haut*/
+    align-items: center; /*allignement central*/
+    align-items: end; /*allignement part le bas*/
+
+    align-content: space-between; /*espace les éléments entre eux*/
+}

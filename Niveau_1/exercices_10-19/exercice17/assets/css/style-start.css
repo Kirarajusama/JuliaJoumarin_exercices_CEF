@@ -1,0 +1,15 @@
+/*NE PAS TOUCHER CE CODE*/
+div {
+    width: 150px;
+    height: 125px;
+    background-color: blueviolet;
+}
+
+section {
+    height: 500px;
+    border: 1px solid black;
+}
+
+#height {
+    height: 170px;
+}
