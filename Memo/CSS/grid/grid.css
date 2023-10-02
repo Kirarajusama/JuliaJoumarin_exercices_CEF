@@ -1,0 +1,48 @@
+p{
+    display: grid; /*type block*/
+    /*ou*/
+    display: inline-grid; /*type inline*/
+
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+        /*chaque colonne prendra au moins 200px et au maximum 1fr. La grille répètera alors autant de colonnes possibles en 
+        fonction de la taille d’écran. Si mon écran est de 700 px alors il affichera trois colonnes, 
+        s’il en fait 500 alors il en affichera deux
+        */
+    grid-template-rows: 2fr 1fr 1fr; /*pour dimensionner les lignes (2/4 de la hauteur pour la première ligne 
+        et 1/4 pour les 2 autres*/
+    grid-template: 2fr 1fr 1fr / 1fr 1fr 1fr; /*pour dimensionner les lignes et colonnes 
+        (2 quart de la auteur pour la première lignes et 1/4 pour les 2 autres/1 tiers de la largeur pour les 3 colonnes)*/
+
+    /*grille dynamique*/
+    grid-auto-columns: auto; /*pour insérer automatiquement une colonne*/
+    grid-auto-rows: auto; /*pour insérer automatiquement une ligne*/
+    grid-auto-flow: auto; /*pour insérer automatiquement une ligne ou une colonne*/
+
+    /*espacement*/
+    row-gap: 20px; /*20px d'espace entre les lignes*/
+    column-gap: 10px; /*10px d'espace entre les colonnes*/
+    gap: 20px/10px; /*20px d'espace entre les lignes/10px d'espace entre les colonnes*/
+    gap: 15px; /*même espace partout*/
+
+    /*allignement*/
+    justify-items: auto; /*allignement horizontal*/
+    align-items: center; /*allignement vertical*/
+    place-items: center/auto; /*allignement vertical/horizontal*/
+    justify-content: center; /*allignement horizontal de la grille*/
+    align-content: center; /*allignement vertical de la grille*/
+    place-content: center/center; /*allignement vertical/horizontal de la grille*/
+}
+
+
+
+/*
+Plusieurs concepts sont à connaitre afin de manipuler une grille :
+
+Grid container : c’est l’élément sur lequel on applique le « display : grid ; » ;
+Grid item : ce sont les enfants directs du grid container ;
+Grid Line : une ligne entre deux colonnes (column line) ou entre deux lignes (row line) ;
+Grid Track : une ligne ou une colonne ;
+Track size : la largeur d’une colonne ou la hauteur d’une ligne ;
+Grid cell : une cellule entre deux grid lines ;
+Grid Area : un regroupement de plusieurs cellules.
+*/

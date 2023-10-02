@@ -1,0 +1,14 @@
+/*NE PAS TOUCHER CE CODE*/
+section div{
+    background-color: blueviolet;
+    color:white;
+    font-weight:bold;
+    font-size:1.5em;
+}
+
+section{
+    width:700px;
+    height: 500px;
+    border:1px solid black;
+    gap:20px;
+}
