@@ -1,0 +1,63 @@
+/*épaisseur*/
+p{
+    border-width: 2px; /*épaisseur de la bordure*/
+    border-right-width: 2px; /*épaisseur de la bordure droite*/
+    border-left-width: 2px; /*épaisseur de la bordure gauche*/
+    border-top-width: 2px; /*épaisseur de la bordure du haut*/
+    border-bottom-width: 2px; /*épasseur de la bordure du bas*/
+}
+
+/*style*/
+p{
+    border-style: dotted; /*bordure pointillé*/
+    border-style: dashed; /*bordure tiret*/
+    border-style: solid; /*bordure simple*/
+    border-style: double; /*bordure doubler*/
+    border-style: groove; /*bordure doubler en haut à gauche*/
+    border-style: ridge; /*bordure doubler en bas a droite*/
+    border-style: inset; /*bordure haut et gauche plus foncé*/
+    border-style: outset; /*bordure bas et droite plus foncé*/
+    border-right-style: solid; /*style de la bordure droite*/
+    border-left-style: solid; /*style de la bordure gauche*/
+    border-top-style: solid; /*style de la bordure du haut*/
+    border-bottom-style: solid; /*style de la bordure du bas*/
+}
+
+/*couleur*/
+p{
+    border-color: blue black white yellow; 
+    /*couleur de la bordure
+    1ere couleur = haut
+    2eme couleur = droite
+    3eme couleur = bas
+    4eme couleur = gauche*/
+    border-right-color: brown; /*couleur de la bordure droite*/
+    border-left-color: blueviolet; /*couleur de la bordure gauche*/
+    border-top-color: darkgreen; /*couleur de la bordure du haut*/
+    border-bottom-color: deeppink; /*couleur de la bordure du bas*/
+}
+
+/*angle*/
+p{
+    border-radius: 10px; /*arrondie les 4 angles*/
+    border-radius: 10px 5px;
+    /*la 1er valeur arrondie les coins en haut à gauche et bas à droite
+    la 2eme valeur arrondie les coins en haut à droite et bas à gaucge*/
+    border-radius: 10px 5px 20px;
+    /*la 1er valeur arrondie les coins en haut à gauche
+    la 2eme valeur arrondie les coins en haut à droite et bas à gauche
+    la 3eme valeur arrondie les coins en bas à droite*/
+    border-radius: 10px 5px 20px 15px; 
+    /*la 1er valeur arrondie les coins en haut à gauche
+    la 2eme valeur arrondie les coins en haut à droite
+    la 3eme valeur arrondie les coins en bas à droite
+    la 4eme valeur arrondie les coins en bas a gauche*/
+}
+
+/*ombre*/
+p{
+    box-shadow: 10px 10px 8px 0 gray; /*ombre horizontal -> ombre vertival ->
+        rayon de flou -> étalage de l'ombre -> couleur de l'ombre*/
+    text-shadow: 2px 0 10px orange; /*ombre horizontal -> ombre vertival ->
+    rayon de flou -> couleur de l'ombre*/
+}

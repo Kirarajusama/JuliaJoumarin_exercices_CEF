@@ -1,0 +1,23 @@
+/*type*/
+p{
+    display: block;
+    display: inline;
+    display: flex;
+    display: grid;
+    display: table;
+    display: none;
+}
+
+/*barre de défilement*/
+p{
+    overflow: visible; /*si le contenu dépasse les limites fixées alors il reste visible et sort volontairement du bloc.*/
+    overflow: hidden; /*si le contenu dépasse les limites, il sera coupé, on ne verra donc pas la partie qui dépasse.*/
+    overflow: scroll; /*on verra apparaitre des barres de défilement (scrollbar). Le contenu ne dépassera donc pas.*/
+    overflow: auto; /*le navigateur décide par lui-même de mettre ou non des barres de défilement.*/
+
+    overflow-x: auto; /*définie uniquement le dépassement horizontal*/
+    overflow-y: auto; /*définie uniquement le dépassement vertical*/
+}
+
+
+
