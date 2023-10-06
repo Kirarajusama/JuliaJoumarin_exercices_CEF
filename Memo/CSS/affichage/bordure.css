@@ -53,11 +53,3 @@ p{
     la 3eme valeur arrondie les coins en bas à droite
     la 4eme valeur arrondie les coins en bas a gauche*/
 }
-
-/*ombre*/
-p{
-    box-shadow: 10px 10px 8px 0 gray; /*ombre horizontal -> ombre vertival ->
-        rayon de flou -> étalage de l'ombre -> couleur de l'ombre*/
-    text-shadow: 2px 0 10px orange; /*ombre horizontal -> ombre vertival ->
-    rayon de flou -> couleur de l'ombre*/
-}
