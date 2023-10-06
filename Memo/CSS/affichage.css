@@ -19,5 +19,59 @@ p{
     overflow-y: auto; /*définie uniquement le dépassement vertical*/
 }
 
+/*police d'écriture*/
+p{
+    font-family: serif; /*avec empattement*/
+    font-family: sans-serif; /*sans empattement*/
+    font-family: cursive; /*police "manuscrite"*/
+    font-family: fantasy; /*police décorative*/
+
+    font-family: "raleway"; /*1 seule police définie*/
+    font-family: "raleway", sans-serif; /*1 police et 1 police générieu définie*/
+    font-family: "raleway", arial, sans-serif; /*plusieurs police et 1 police générique*/
 
 
+    /*taille*/
+    font-size: 1em; /*1em correspont à la taille standar de la police du navigateur (comme 11 pour word)*/
+}
+
+/*style*/
+p{
+  font-style: italic; /*met le texte en italique*/
+  font-style: oblique; /*met le texte en italique inversé*/
+  font-style: none; /*met le texte sans italique, valeur par défaut*/
+  
+  font-weight: normal; /*police normal, valeur par défaut*/
+  font-weight: bold; /*police en gras*/
+  font-weight: lighter; /*police moins grasse que sont parent*/
+  font-weight: bolder; /*police plus grasse que son parent*/
+  font-weight: 100; /*valeur allant de 100 à 900 pour définir le taux de gras, 400 étant la valeur par défaut*/
+
+  text-transform: none; /*aucune transformation, valeur par défaut*/
+  text-transform: uppercase; /*tout le texte en majuscule*/
+  text-transform: lowercase; /*tout le texte en minuscule*/
+  text-transform: capitalize; /*tout les mots commence par un majuscule*/
+
+  text-decoration: none; /*pour désactiver les décorations existante*/
+  text-decoration: underline; /*pour souligner*/
+  text-decoration: overline; /*pour placer une ligne au dessus*/
+  text-decoration: line-through; /*pour barrer le texte*/
+}
+
+/*allignement*/
+p{
+    text-align: left; /*pour alligner le texte à gauche*/
+    text-align: center; /*pour centrer le texte*/
+    text-align: right; /*pour alligner le texte à droite*/
+    text-align: justify; /* pour mettre la même largeur pour toutes les lignes*/
+    
+    /*hauteur de ligne*/
+    line-height: 1; /*définit l'espace entre 2 ligne (inter-ligne)*/
+
+    /*espacement*/
+    letter-spacing: 10px; /*correspond à l'espace entre les lettres*/
+    word-spacing: 50px; /*correspond à l'espace entre les mots*/
+
+    /*indentation = tabulation*/
+    text-indent: 100px; /*indique la tabulation à appliquer*/
+}
