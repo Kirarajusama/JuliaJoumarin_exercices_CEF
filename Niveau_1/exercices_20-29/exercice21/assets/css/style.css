@@ -1,0 +1,14 @@
+div{
+    border-width: 3px;
+    border-style: solid;
+    border-color: green;
+    border-left-color: red;
+    border-top-width: 5px;
+    border-bottom-style: dashed;
+    border-bottom-right-radius: 50px;
+    box-shadow: 10px 10px 20px 0 blue;
+}
+
+p{
+    text-shadow: 0 -20px 0 blueviolet;
+}

@@ -1,0 +1,10 @@
+/* NE PAS TOUCHER CE CODE*/
+#bloc {
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    font-size: 2em;
+    text-align: center;
+}
