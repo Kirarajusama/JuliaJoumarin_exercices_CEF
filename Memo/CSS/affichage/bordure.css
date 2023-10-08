@@ -53,3 +53,18 @@ p{
     la 3eme valeur arrondie les coins en bas à droite
     la 4eme valeur arrondie les coins en bas a gauche*/
 }
+
+/*image ronde avec ombre*/
+figure{
+    width: 200px;
+    height: 200px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 30px deepskyblue,
+    15px 0 30px violet,
+    -15px 0 30px lightskyblue;
+}
