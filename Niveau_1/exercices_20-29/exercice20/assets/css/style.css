@@ -1,3 +1,13 @@
-*{
+
+body{
     background-color: antiquewhite;
+    background-image: url(../img/tools.png), url(../img/man.png);
+    background-repeat: no-repeat;
+    background-size: 150px, 200px;
+    background-position: top left, bottom 50px right 50px;
+    background-attachment: scroll, fixed;
+}
+
+h1{
+    color: orange;
 }
