@@ -1,0 +1,25 @@
+*{
+    font-family: "raleway", sans-serif;
+}
+
+h1{
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    text-align: justify;
+    text-indent: 50px; 
+}
