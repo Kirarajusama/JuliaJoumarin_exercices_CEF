@@ -1,0 +1,14 @@
+body    {
+    background-color: black;
+    background-image: url(image.png);
+    background-repeat: no-repeat; /*pour que le fond ne se répéte pas*/
+    background-size: 200px; /*taille du fond*/
+    background-size: cover; /*pour que le fond recouvre l'emsembre du site*/
+    background-position: top right; /*position du fond*/
+    background-attachment: fixed; /*"suis" le scroll*/
+
+    /*Ou*/
+
+    background: url(image.png) fixed no-repeat top right / 200px; 
+    /*image attachment repeat position / size*/
+}
