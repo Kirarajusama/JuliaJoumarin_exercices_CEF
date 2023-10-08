@@ -60,3 +60,9 @@ p{
 p:visited{
     color: yellow;
 }
+
+/*transparence*/
+p{
+    opacity: 0; /*transparence total*/
+    opacity: 1; /*aucune transparence*/
+}
