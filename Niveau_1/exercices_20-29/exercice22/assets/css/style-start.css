@@ -1,0 +1,19 @@
+/* NE PAS TOUCHER A CE CODE*/
+.menu__list{
+    display:flex;
+    gap:50px;
+}
+
+.menu__item{
+    list-style-type: none;
+}
+
+.menu__link, .menu__link_active{
+    color:black;
+    text-decoration:none;
+    font-size:1.5em;
+}
+
+.bloc p{
+    font-size:1.3em;
+}

@@ -1,0 +1,17 @@
+.menu__link:hover{
+    color: blue;
+}
+
+.menu__link:focus{
+    border-bottom: 2px solid blue;
+    padding-bottom: 5px;
+}
+
+.bloc__text:hover{
+    font-size: 1.6em;
+    cursor: zoom-in;
+}
+
+.bloc__text_hidden{
+    display: none;
+}
